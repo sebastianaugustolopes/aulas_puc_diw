@@ -6,6 +6,138 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <header>
+        <h1>DevWeb Conference 2926</h1>
+        <p>
+        Um encotro sobre desenvolvimento web, interfaces e experiências digitais. 
+        </p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#palestras">Palestras </a>
+        <a href="#programacao">Programação</a>
+        <a href="#inscricao">Inscricão</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o evento</h2>
+            <p>A DevWeb Conference reúne estudantes e profissionais interessados em desenvolvimento de interfaces web, experiência do usuário e tecnologias para a Web.</p>
+            <p>
+                O evento será realizado em Belo Horizonte e contarácom palestras, atividades práticas e momentos de interação entre os participantes.
+            </p>
+
+            <img src="https://images.pexels.com/photos/36900080/pexels-photo-36900080.jpeg" style="width: 50%;" alt="Auditório preparado para a DevWeb Conference">
+        </section>
+        <section id="palestras">
+            <h2>Palestras</h2>
+            <article>
+                <h3>Interfaces que realemente funcionam</h3>
+
+                <p>
+                    Uma conversa sobre princípios para criação de interfaces claras, acessíveis e fáceis de utilizar.
+                </p>
+                <p><strong>Palestrante:</strong> Ana Martins</p>
+            </article>
+            <article>
+                <h3>HTML além das divs</h3>
+                <p>
+                    Como utilizar HTML semântico para produzir documentos mais organizados, acessíveis e compreensíveis.
+                </p>
+                <p>
+                    <strong>Palestrante:</strong> Bruno Lima
+                </p>
+            </article>
+            <article>
+                <h3>
+                    O futuro do desenvolvimento web 
+                </h3>
+                <p>
+                    Uma discussão sobre tendências, ferramentas e possibilidades para os próximos anos da Web.
+                </p>
+                <p>
+                    <strong>palestrante</strong> Carla Souza 
+                </p>
+            </article>
+        </section>
+
+        <section id="programacao">
+            <h2>Programação</h2>
+            <table>
+                <caption>Programação da DevWeb Conference 2026</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Horário</th>
+                        <th scope="col">Atividade</th>
+                        <th scope="col">Local</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>08:30</td>
+                        <td>Credenciamento</td>
+                        <td>Hall principal</td>
+                    </tr>
+                    <tr>
+                        <td>09:00</td>
+                        <td>Abertura</td>
+                        <td>Auditório</td>
+                    </tr>
+
+                    <tr>
+
+                <td>10:00</td>
+
+                <td>Interfaces que realmente funcionam</td>
+
+                <td>Auditório</td>
+
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>HTML além das divs</td>
+                <td>Auditório</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>O futuro do desenvolvimento web</td>
+                <td>Auditório</td>
+            </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="inscricao">
+            <h2>Inscrição</h2>
+            <p>
+                Preencha os dados abaixo para realizar sua inscrição.
+            </p>
+            <form>
+                <p>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="senha">Crie uma senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </p>
+                <p>
+                    <input type="checkbox" id="novidades" name="novidades"> <label for="novidades"> Desejo receber novidades sobre o evento </label>
+                </p>
+                
+                <button type="submit">
+                    Realizar inscrição
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>DevWeb Conference 2026</p>
+        <p>Desenvolvimento de Interfaces Web</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+    </footer>
 </body>
 </html>
